@@ -1,39 +1,53 @@
+/* 
+  File: rafting.css
+  Description: Styles for the Whitewater Rafting site
+*/
+
+/* Define CSS Variables */
 :root {
-    --primary-color: #004d40;
-
-    --accent1-color: #ff8000;
-
-    --accent2-color: #ffffff;
-
-    --heading-font: 'Georgia', serif;
-    --body-font: 'Arial', sans-serif;
+    --primary-color: #023e8a;
+    /* Deep Blue */
+    --secondary-color: #00b4d8;
+    /* Sky Blue */
+    --accent1-color: #03045e;
+    /* Midnight Navy */
+    --accent2-color: #caf0f8;
+    /* Pale Ice Blue */
+    --heading-font: "Comic Sans", serif;
+    --body-font: "Helvetica", "Arial", sans-serif;
 }
 
+/* Reset Box Model */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Global Body Styles */
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: #ffffff;
+    background-color: #fdfdfd;
 }
 
+/* Layout Constraints */
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
+/* Typography */
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
+/* Basic Spacing for Content */
 nav,
 p,
 section,
@@ -42,22 +56,12 @@ article {
     padding: 8px;
 }
 
-nav a {
-    margin-right: 12px;
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: var(--accent1-color);
-}
-
+/* Footer Social Media Links */
 .socialmedia a {
     text-decoration: none;
-    margin-right: 8px;
 }
 
+/* Hero Section Styles */
 .hero {
     position: relative;
 }
@@ -68,35 +72,36 @@ nav a:hover {
     height: auto;
 }
 
+/* Hero Heading Overlay */
 .hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
-    font-size: 2rem;
+    background-color: rgba(3, 4, 94, 0.7);
+    /* Semi-transparent Midnight Navy */
+    color: #ffffff;
+    /* White for high contrast */
 }
 
+/* Hero Article Overlay */
 .hero article {
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(74, 74, 74, 0.5);
-    padding: 0px;
-    border-radius: 8px;
-    text-align: center;
-    --accent1-color: rgba(13, 11, 11, 0.5);
-
+    background-color: rgba(202, 240, 248, 0.85);
+    /* Semi-transparent Pale Blue */
+    padding: 15px;
+    border: 1px solid var(--primary-color);
 }
 
+/* Hero Article Image */
 .hero article img {
     float: right;
-    width: 120px;
-    margin: 8px;
+    width: 125px;
+    margin-left: 15px;
     border: 2px solid var(--primary-color);
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
