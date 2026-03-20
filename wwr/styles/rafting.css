@@ -5,13 +5,13 @@
 
 /* Define CSS Variables */
 :root {
-    --primary-color: #055a05;
+    --primary-color: #747474;
     /* forest green */
     --secondary-color: #f4a261;
     /* warm sand */
-    --accent1-color: #264653;
+    --accent1-color: #1e333c;
     /* dark slate blue */
-    --accent2-color: #e9c46a;
+    --accent2-color: hwb(248 0% 19%);
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     /* Uso de accent2 */
-    border-bottom: 5px solid var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
     /* Uso de secondary */
 }
 
@@ -32,8 +32,8 @@ nav a {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
-    background-color: #fdfdfd;
+    color: var(--secondary-color);
+    background-color: #620909;
     /* Opcional: podrías usar una versión muy clara de secondary aquí */
 }
 
@@ -72,8 +72,10 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
+    margin: 1px;
     padding: 8px;
+    border: #f4a261;
+
 }
 
 /* Footer Social Media Links */
@@ -114,7 +116,8 @@ article {
     background-color: rgba(202, 240, 248, 0.85);
     /* Semi-transparent Pale Blue */
     padding: 15px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--secondary-color);
+
 }
 
 /* Hero Article Image */
