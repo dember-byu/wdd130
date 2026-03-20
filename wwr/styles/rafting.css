@@ -101,7 +101,7 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(207, 207, 207, 0.7);
+    background-color: rgb(3, 4, 94, 0.8);
     /* Semi-transparent Midnight Navy */
     color: #ffffff;
     /* White for high contrast */
@@ -113,7 +113,7 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(202, 240, 248, 0.85);
+    background-color: rgba(202, 240, 248, 0.95);
     /* Semi-transparent Pale Blue */
     padding: 15px;
     border: 1px solid var(--secondary-color);
