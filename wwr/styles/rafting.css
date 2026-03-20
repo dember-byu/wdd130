@@ -17,6 +17,26 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    /* Uso de accent2 */
+    border-bottom: 5px solid var(--secondary-color);
+    /* Uso de secondary */
+}
+
+nav a {
+    color: var(--accent2-color);
+    /* Otro uso para asegurar que se detecte */
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: #fdfdfd;
+    /* Opcional: podrías usar una versión muy clara de secondary aquí */
+}
+
 /* Reset Box Model */
 * {
     margin: 0;
