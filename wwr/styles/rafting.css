@@ -5,7 +5,7 @@
 
 /* Define CSS Variables */
 :root {
-    --primary-color: #747474;
+    --primary-color: #1b1a1a;
     /* forest green */
     --secondary-color: #f4a261;
     /* warm sand */
@@ -33,7 +33,7 @@ nav a {
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
-    background-color: #620909;
+    background-color: rgb(98, 9, 9);
     /* Opcional: podrías usar una versión muy clara de secondary aquí */
 }
 
@@ -48,7 +48,7 @@ body {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: #fdfdfd;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Layout Constraints */
@@ -113,7 +113,7 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(202, 240, 248, 0.95);
+    background-color: rgba(255, 255, 255, 0.70);
     /* Semi-transparent Pale Blue */
     padding: 15px;
     border: 1px solid var(--secondary-color);
