@@ -17,11 +17,6 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 /* Reset Box Model */
 * {
     margin: 0;
