@@ -5,16 +5,21 @@
 
 /* Define CSS Variables */
 :root {
-    --primary-color: #023e8a;
-    /* Deep Blue */
-    --secondary-color: #00b4d8;
-    /* Sky Blue */
-    --accent1-color: #03045e;
-    /* Midnight Navy */
-    --accent2-color: #caf0f8;
-    /* Pale Ice Blue */
-    --heading-font: "Comic Sans", serif;
-    --body-font: "Helvetica", "Arial", sans-serif;
+    --primary-color: #055a05;
+    /* forest green */
+    --secondary-color: #f4a261;
+    /* warm sand */
+    --accent1-color: #264653;
+    /* dark slate blue */
+    --accent2-color: #e9c46a;
+    /* light golden yellow */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 /* Reset Box Model */
