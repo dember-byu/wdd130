@@ -11,24 +11,18 @@
     /* warm sand */
     --accent1-color: #1e333c;
     /* dark slate blue */
-    --accent2-color: hwb(248 0% 19%);
+    --accent2-color: #ffd166;
     /* light golden yellow */
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --header-bg: #f0f0f0;
+    /* header background */
+    --body-bg: #ffffff;
+    /* body background */
+    --light-bg: #f9f9f9;
+    /* history section background */
+    --border-color: #ccc;
+    /* neutral border */
+    --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
-}
-
-header {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    /* Logo space and Nav space */
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #f0f0f0;
-}
-
-nav a {
-    color: var(--accent2-color);
-    /* Otro uso para asegurar que se detecte */
 }
 
 /* Reset Box Model */
@@ -42,33 +36,57 @@ nav a {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--body-bg);
 }
 
+/* Header Layout */
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--header-bg);
+}
+
+header img {
+    max-width: 100%;
+}
+
+/* Navigation */
 .nav-links {
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    /* Pushes links to the right */
     gap: 20px;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: var(--accent1-color);
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* History Section */
 .history {
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: var(--light-bg);
 }
-
-/*history*/
 
 .history-content {
     display: grid;
-    /* también puedes usar flex */
     grid-template-columns: 1fr 2fr;
     gap: 1.5rem;
     align-items: center;
@@ -81,10 +99,9 @@ body {
 
 .history-text p {
     margin-bottom: 1rem;
-
 }
 
-/* Adventures Gallery using Flexbox */
+/* Adventures Gallery */
 .adventure-gallery {
     display: flex;
     justify-content: space-around;
@@ -96,12 +113,10 @@ body {
     margin: 0;
     text-align: center;
     flex: 1;
-    /* Makes each figure take equal space */
 }
 
 .adventure-gallery img {
     width: 100%;
-    /* Responsive images */
     height: auto;
     border-radius: 8px;
 }
@@ -112,7 +127,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--border-color);
 }
 
 /* Layout Constraints */
@@ -123,14 +138,6 @@ footer {
     margin: 0 auto;
 }
 
-/* Typography */
-h1,
-h2,
-h3 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
 /* Basic Spacing for Content */
 nav,
 p,
@@ -138,8 +145,6 @@ section,
 article {
     margin: 1px;
     padding: 8px;
-    border: #f4a261;
-
 }
 
 /* Footer Social Media Links */
@@ -165,10 +170,9 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    /* Semi-transparent Midnight Navy */
-    color: #ffffff;
-    /* White for high contrast */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* semitransparente para contraste */
+    color: var(--body-bg);
 }
 
 /* Hero Article Overlay */
@@ -177,11 +181,9 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.70);
-    /* Semi-transparent Pale Blue */
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
-    border: 1px solid var(--primary-color);
-
+    border: 1px solid var(--secondary-color);
 }
 
 /* Hero Article Image */
