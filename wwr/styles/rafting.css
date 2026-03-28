@@ -59,17 +59,27 @@ body {
     font-weight: bold;
 }
 
-/* History Section Layout */
-.history-content {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
+.history {
+    padding: 2rem;
+    background-color: #f9f9f9;
 }
 
-.history-content img {
-    max-width: 400px;
-    height: auto;
+.history-content {
+    display: grid;
+    /* también puedes usar flex */
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.history img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.history-text p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
 /* Adventures Gallery using Flexbox */
