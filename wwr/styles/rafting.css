@@ -14,8 +14,8 @@
     /* dark slate blue */
     --accent2-color: #1c00cf;
     /* light golden yellow */
-    --body-bg: #f0f0f0;
-    --font: hsl(240, 100%, 92%);
+    --body-bg: rgb(234, 234, 234, 0.5);
+    --font: hsl(240, 100%, 92%, 0.8);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -53,11 +53,6 @@ nav ul li a {
     border-radius: 5px;
 }
 
-nav a {
-    color: var(--primary-color);
-    /* Otro uso para asegurar que se detecte */
-}
-
 /* Reset Box Model */
 * {
     margin: 0;
@@ -80,20 +75,6 @@ body {
     gap: 1rem;
     margin: 0px;
     padding: 0px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-weight: bold;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: var(--font);
-    border-radius: 5px;
-    font-weight: var(--accent2-color);
-    display: flex;
-    justify-content: flex-end;
-
 }
 
 /*history*/
