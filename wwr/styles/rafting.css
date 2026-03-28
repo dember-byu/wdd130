@@ -140,16 +140,6 @@ h3 {
     color: var(--primary-color);
 }
 
-/* Basic Spacing for Content */
-p,
-section,
-article {
-    margin: 1px;
-    padding: 8px;
-    border: var(--secondary-color);
-    margin: 0 auto;
-}
-
 /* Footer Social Media Links */
 .socialmedia a {
     text-decoration: none;
