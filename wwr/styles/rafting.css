@@ -64,6 +64,8 @@ body {
     background-color: #f9f9f9;
 }
 
+/*history*/
+
 .history-content {
     display: grid;
     /* también puedes usar flex */
@@ -79,7 +81,7 @@ body {
 
 .history-text p {
     margin-bottom: 1rem;
-    line-height: 1.6;
+
 }
 
 /* Adventures Gallery using Flexbox */
