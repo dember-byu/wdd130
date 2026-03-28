@@ -45,7 +45,7 @@ nav ul li a {
     padding: 10px 20px;
     background-color: var(--secondary-color);
     /* Blue color matching your logo theme */
-    color: var(--body-bg);
+    color: var(--primary-color);
     /* Text color */
     text-decoration: none;
     /* Remove underline */
