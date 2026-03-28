@@ -14,6 +14,7 @@ correcto
     /* dark slate blue */
     --accent2-color: #1c00cf;
     /* light golden yellow */
+    --body-bg: #f0f0f0;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -24,7 +25,7 @@ header {
     /* Logo space and Nav space */
     align-items: center;
     padding: 10px 20px;
-    background-color: #f0f0f0;
+    background-color: var(--body-bg);
 }
 
 nav a {
@@ -43,7 +44,7 @@ nav a {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--body-bg);
 }
 
 .nav-links {
@@ -62,7 +63,7 @@ body {
 
 .history {
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: var(--body-bg);
 }
 
 /*history*/
@@ -113,7 +114,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--primary-color)
 }
 
 /* Layout Constraints */
@@ -139,8 +140,7 @@ section,
 article {
     margin: 1px;
     padding: 8px;
-    border: #f4a261;
-
+    border: var(--secondary-color)
 }
 
 /* Footer Social Media Links */
@@ -166,9 +166,9 @@ article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--body-bg);
     /* Semi-transparent Midnight Navy */
-    color: #ffffff;
+    color: var(--body-bg);
     /* White for high contrast */
 }
 
@@ -178,7 +178,7 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.70);
+    background-color: var(--body-bg);
     /* Semi-transparent Pale Blue */
     padding: 15px;
     border: 1px solid var(--primary-color);
@@ -191,5 +191,5 @@ article {
     width: 125px;
     margin-left: 15px;
     border: 2px solid var(--primary-color);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px var(--primary-color);
 }
