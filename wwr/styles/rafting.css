@@ -15,18 +15,42 @@
     --accent2-color: #1c00cf;
     /* light golden yellow */
     --body-bg: #f0f0f0;
-    --font: hsl(240, 100%, 83%);
+    --font: hsl(240, 100%, 92%);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: auto 1fr;
     /* Logo space and Nav space */
     align-items: center;
-    padding: 1 rem;
+    padding: 20px;
     background-color: var(--font);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    /* Pushes buttons to the right */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    /* Space between buttons */
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    /* Blue color matching your logo theme */
+    color: var(--body-bg)
+        /* Text color */
+        text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 nav a {
@@ -68,6 +92,7 @@ body {
     border-radius: 5px;
     font-weight: var(--accent2-color);
     display: flex;
+    justify-content: flex-end;
 
 }
 
