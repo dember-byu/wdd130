@@ -12,7 +12,7 @@ correcto
     /* warm sand */
     --accent1-color: #1e333c;
     /* dark slate blue */
-    --accent2-color: hwb(248 0% 19%);
+    --accent2-color: #1c00cf;
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -56,7 +56,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
