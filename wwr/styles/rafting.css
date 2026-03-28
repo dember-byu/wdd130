@@ -7,19 +7,19 @@
 :root {
     --primary-color: #1b1a1a;
     /* forest green */
-    --secondary-color: #f4a261;
+    --secondary-color: rgb(244, 162, 97);
     /* warm sand */
-    --accent1-color: #1e333c;
+    --accent1-color: rgb(30, 51, 60);
     /* dark slate blue */
-    --accent2-color: #ffd166;
+    --accent2-color: rgb(255, 208, 99);
     /* light golden yellow */
-    --header-bg: #f0f0f0;
+    --header-bg: rgb(254, 254, 254);
     /* header background */
-    --body-bg: #ffffff;
+    --body-bg: rgb(255, 255, 255);
     /* body background */
-    --light-bg: #f9f9f9;
+    --light-bg: rgb(249, 249, 249);
     /* history section background */
-    --border-color: #ccc;
+    --border-color: rgb(204, 204, 204);
     /* neutral border */
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
