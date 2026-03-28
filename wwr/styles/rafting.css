@@ -94,6 +94,12 @@ body {
 }
 
 /* Adventures Gallery using Flexbox */
+.adventure h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .adventure-gallery {
     display: flex;
     justify-content: space-around;
