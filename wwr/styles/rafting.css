@@ -68,6 +68,14 @@ body {
 }
 
 /*history*/
+
+.history {
+    border: 2px var(--accent2-color);
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--font);
+}
+
 .history h2 {
     text-align: center;
 
@@ -94,6 +102,14 @@ body {
 }
 
 /* Adventures Gallery using Flexbox */
+.adventures {
+    border: 2px var(--accent2-color);
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--font);
+
+}
+
 .adventures h2 {
     text-align: center;
 }
