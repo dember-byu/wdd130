@@ -42,7 +42,7 @@ nav a {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white);
 }
 
 .nav-links {
