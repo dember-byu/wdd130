@@ -67,16 +67,6 @@ body {
     background-color: var(--body-bg);
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    /* Pushes links to the right */
-    gap: 1rem;
-    margin: 0px;
-    padding: 0px;
-}
-
 /*history*/
 .history h2 {
     text-align: center;
