@@ -67,6 +67,12 @@ body {
     background-color: var(--body-bg);
 }
 
+section {
+    border-top: 2px solid var(--accent2-color);
+    border-bottom: 2px solid var(--accent2-color);
+    padding: 40px 0;
+}
+
 /*history*/
 
 .history {
