@@ -65,9 +65,9 @@ nav ul li a {
 
 .map {
     flex: 1;
-    background: var(--secondary-color);
-    text-align: center;
-    padding: 2rem;
+    padding: 0;
+    margin: 1px;
+
 }
 
 /*contact form */
@@ -140,6 +140,15 @@ nav ul li a {
 }
 
 /* hasta aqui*/
+
+.map img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    align-self: center;
+}
 
 .contact-form textarea {
     display: inline-block;
