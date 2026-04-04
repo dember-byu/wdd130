@@ -45,7 +45,6 @@ nav ul {
     margin: 0;
     padding: 0;
     gap: 1rem;
-    /* Space between buttons */
 }
 
 nav ul li a {
@@ -76,18 +75,6 @@ h1 {
     color: var(--primary-color);
     display: flex;
     text-align: center;
-}
-
-.hero h1 {
-    position: relative;
-    top: 100px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    background-color: var(--body-bg);
-    /* Semi-transparent Midnight Navy */
-    color: var(--primary-color);
-    /* White for high contrast */
 }
 
 .map {
