@@ -57,10 +57,17 @@ nav ul li a {
     text-align: center;
 }
 
+body section .contact-info {
+    display: block;
+}
+
 .contact-info {
     background: var(--font);
     padding: 1rem;
     text-align: center;
+    grid-template-columns: auto 1fr;
+    display: block;
+    justify-content: space-between;
 }
 
 .map {
@@ -297,9 +304,7 @@ main {
 }
 
 /* Typography */
-h1,
-h2,
-h3 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
