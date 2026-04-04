@@ -40,19 +40,24 @@
 
         <form class="contact-form">
             <div class="form-group">
-                <label>Name</label>
-                <input type="text" id="user_name" name="name" placeholder="Placeholder">
+                <label for="user_name">Name</label>
+                <input type="text" id="user_name" name="user_name" placeholder="Placeholder">
             </div>
             <div class="form-group">
-                <label>Email</label>
+                <label for="user_mail">Email</label>
                 <input type="email" id="user_mail" name="email" placeholder="Placeholder">
             </div>
             <div class="form-group">
                 <label>Message Purpose</label>
                 <div class="radio-group">
-                    <label><input type="radio" name="purpose">General Inquiry</label>
-                    <label><input type="radio" name="purpose">Reservation Question</label>
-                    <label><input type="radio" name="purpose">Website Suggestion</label>
+                    <input type="radio" id="general" name="purpose" value="general">
+                    <label for="general">General Inquiry</label>
+
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
                 </div>
             </div>
 
