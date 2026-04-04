@@ -61,7 +61,7 @@ nav ul li a {
 
 .contact-info {
     background: var(--font);
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     grid-template-columns: auto 1fr;
     display: flex;
@@ -69,7 +69,6 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    ;
 
 }
 
@@ -77,7 +76,7 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     display: flex;
-    text-align: center;
+    text-align: auto;
 }
 
 .map {
