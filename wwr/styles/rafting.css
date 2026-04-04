@@ -198,13 +198,6 @@ button {
     text-align: center;
 }
 
-footer {
-    background: var(--font);
-    color: var(--accent1-color);
-    text-align: center;
-    padding: 1rem;
-}
-
 /* Reset Box Model */
 * {
     margin: 0;
@@ -228,7 +221,17 @@ section {
 }
 
 /* Footer Layout */
-* Layout Constraints */ main {
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid var(--accent2-color)
+}
+
+/* Layout Constraints */
+
+main {
     max-width: 840px;
     margin: 0 auto;
     display: flex;
