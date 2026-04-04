@@ -57,10 +57,6 @@ nav ul li a {
     text-align: center;
 }
 
-main {
-    display: flexbox;
-}
-
 .contact-info {
     background: var(--font);
     padding: 4rem;
