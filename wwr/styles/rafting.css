@@ -63,10 +63,10 @@ body section .contact-info {
 
 .contact-info {
     background: var(--font);
-    padding: 1rem;
-    text-align: center;
+    padding: 4rem;
+    text-align: left;
     grid-template-columns: auto 1fr;
-    display: block;
+    display: flex;
     justify-content: space-between;
 }
 
