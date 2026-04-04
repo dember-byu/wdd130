@@ -97,6 +97,10 @@ h1 {
 
 }
 
+.map iframe {
+    border: 0;
+}
+
 /*contact form */
 .contact-form {
     flex: 1;
