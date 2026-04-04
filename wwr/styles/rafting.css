@@ -61,11 +61,16 @@ nav ul li a {
 
 .contact-info {
     background: var(--font);
-    padding: 4rem;
+    padding: 20px;
     text-align: center;
     grid-template-columns: auto 1fr;
-    display: block;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    ;
+
 }
 
 h1 {
