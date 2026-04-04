@@ -29,31 +29,58 @@
         <p>Tel: +1 999 999 9999<br>Email: info@whitewater.com</p>
     </section>
     <main>
-        <div class="map">[Mapa con ubicación]</div>
+        <div class="map">
+            <img src="images/z-wwr-blue.jpg" alt="Logo company" width="auto">
+        </div>
+
         <form class="contact-form">
-            <label>Nombre:<br><input type="text" name="name" placeholder="Tu nombre"></label>
-            <label>Email:<br><input type="email" name="email" placeholder="Tu correo"></label>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" placeholder="Placeholder">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="Placeholder">
+            </div>
+            <div class="form-group">
+                <label>Message Purpose</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="purpose">General Inquiry</label>
+                    <label><input type="radio" name="purpose">Reservation Question</label>
+                    <label><input type="radio" name="purpose">Website Suggestion</label>
+                </div>
+            </div>
 
-            <fieldset>
-                <legend>Propósito del mensaje:</legend>
-                <label><input type="radio" name="purpose" value="general"> Consulta General</label>
-                <label><input type="radio" name="purpose" value="reservation"> Pregunta de
-                    Reserva</label>
-                <label><input type="radio" name="purpose" value="suggestion"> Sugerencia Web</label>
-            </fieldset>
+            <div class="form-group1">
+                <label>Message</label>
+                <textarea placeholder="Type here"></textarea>
+            </div>
 
-            <label>Mensaje:<br><textarea name="message"></textarea></label>
-            <label><input type="checkbox" name="newsletter"> Suscribirme al boletín mensual</label>
+            <div class="newsletter">
+                <input type="checkbox" id="news">
+                <label for="news">Please Subscribe me to the monthly newsletter</label>
+            </div>
 
-            <button type="submit">¡Contáctanos!</button>
+            <button type="submit">Get in Touch!</button>
         </form>
     </main>
 
-    <section class="profiles">
+    <section class="team-section">
         <h2>We Are Here to Serve You</h2>
-        <div class="profile">Perfil de Empleado 1</div>
-        <div class="profile">Perfil de Empleado 2</div>
-        <div class="profile">Perfil de Empleado 3</div>
+        <div class="team-grid">
+            <div class="employee-card">
+                <img src="images/z-wwr-blue.jpg" alt="Logo company" width="150">
+                <p>Employee Profile</p>
+            </div>
+            <div class="employee-card">
+                <img src="images/z-wwr-blue.jpg" alt="Logo company" width="150">
+                <p>Employee Profile</p>
+            </div>
+            <div class="employee-card">
+                <img src="images/z-wwr-blue.jpg" alt="Logo company" width="150">
+                <p>Employee Profile</p>
+            </div>
+        </div>
     </section>
     <footer>
         <p>&copy; 2026 White Water Rafting | Dember Perez</p>

@@ -20,21 +20,15 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-head {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
-    text-align: center;
-    padding: 1rem;
-}
-
 header {
     display: flex;
     grid-template-columns: auto 1fr;
     align-items: center;
-    padding: 1rem;
+    padding: 20px;
     background-color: var(--font);
     color: var(--primary-color);
     justify-content: space-between;
+    text-align: center;
 
 }
 
@@ -54,17 +48,19 @@ nav ul li a {
     padding: 10px 20px;
     background-color: var(--secondary-color);
     /* Blue color matching your logo theme */
-    color: var(--primary-color);
+    color: var(--font);
     /* Text color */
     text-decoration: none;
     /* Remove underline */
     font-weight: bold;
     border-radius: 5px;
+    text-align: center;
 }
 
 .contact-info {
-    background: var(--accent2-color);
+    background: var(--font);
     padding: 1rem;
+    text-align: center;
 }
 
 .map {
@@ -74,10 +70,81 @@ nav ul li a {
     padding: 2rem;
 }
 
-.contact-form input,
+/*contact form */
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #999;
+    display: inline-block;
+}
+
+.radio-group {
+    width: 200%;
+    font-size: 0.5rem;
+    text-align: justify;
+    position: relative;
+    left: 30px;
+
+}
+
+.radio-group label {
+    display: flex;
+    width: 70px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.submit-btn {
+    padding: 12px;
+    background: #E0E0E0;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*hasta aqui*/
+
+.team-section {
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.employee-card img {
+    width: 100px;
+    background-color: #E0E0E0;
+    margin: 0 auto 10px;
+    border: 1px solid #35229f;
+    justify-content: center;
+    display: flex;
+    font-size: 0;
+}
+
+/* hasta aqui*/
+
 .contact-form textarea {
+    display: inline-block;
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 button {
