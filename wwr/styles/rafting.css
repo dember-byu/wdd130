@@ -228,17 +228,7 @@ section {
 }
 
 /* Footer Layout */
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-top: 1px solid var(--accent2-color)
-}
-
-/* Layout Constraints */
-
-main {
+* Layout Constraints */ main {
     max-width: 840px;
     margin: 0 auto;
     display: flex;
@@ -251,15 +241,4 @@ main {
 /* Footer Social Media Links */
 .socialmedia a {
     text-decoration: none;
-}
-
-/* Hero Section Styles */
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
