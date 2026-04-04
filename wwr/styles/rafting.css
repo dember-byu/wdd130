@@ -57,16 +57,16 @@ nav ul li a {
     text-align: center;
 }
 
-body section .contact-info {
-    display: block;
+main {
+    display: flexbox;
 }
 
 .contact-info {
     background: var(--font);
     padding: 4rem;
-    text-align: left;
+    text-align: center;
     grid-template-columns: auto 1fr;
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 
