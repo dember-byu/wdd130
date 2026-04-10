@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #fffcfc;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form layout */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #e0dfdf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Inputs, textarea, select */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0f0098;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -76,7 +76,7 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     display: flex;
-    text-align: center;
+    text-align: auto;
 }
 
 .map {
