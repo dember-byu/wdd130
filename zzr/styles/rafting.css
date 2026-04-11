@@ -69,6 +69,9 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    grid-column: 1 / span 2;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
 
 }
 
@@ -83,11 +86,13 @@ h1 {
     flex: 1;
     padding: 0;
     margin: 1px;
+    grid-column: 1;
 
 }
 
 .map iframe {
     border: 0;
+    width: 100%;
 }
 
 /*contact form */
@@ -95,7 +100,9 @@ h1 {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+    grid-column: 2;
+    text-align: 70px;
 }
 
 .form-group {
@@ -114,18 +121,46 @@ h1 {
 .radio-group {
     width: 200%;
     font-size: 0.5rem;
-    text-align: justify;
+    text-align: center;
     position: relative;
-    left: 30px;
+    left: -50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
 
 }
 
 .radio-group label {
-    display: flex;
-    width: 70px;
-    text-align: left;
-    margin-bottom: 20px;
+    width: 1%;
+    font-size: 0.5rem;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    top: -40px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    /* Alinea el círculo con el centro del texto */
+    gap: 8px;
+    /* Espacio pequeño entre el círculo y la letra */
+    cursor: pointer;
+}
+
+.radio-item input {
+    margin: 0;
+    cursor: pointer;
 }
 
 .submit-btn {
@@ -231,9 +266,10 @@ footer {
 main {
     max-width: 840px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
     gap: 1rem;
     padding: 1rem;
+    grid-template-columns: 1fr;
 }
 
 /* Typography */
