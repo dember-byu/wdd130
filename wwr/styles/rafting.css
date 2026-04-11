@@ -333,7 +333,7 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     display: flex;
-    text-align: auto;
+
 }
 
 .map {
@@ -356,7 +356,7 @@ h1 {
     flex-direction: column;
     gap: 10px;
     grid-column: 2;
-    text-align: 70px;
+
 }
 
 .form-group {
