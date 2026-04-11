@@ -3,6 +3,8 @@
   Description: Styles for the Whitewater Rafting site
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+
 /* Define CSS Variables */
 :root {
     --primary-color: #1b1a1a;
@@ -62,8 +64,6 @@ nav a {
 .hero {
     position: relative;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
 
 .hero h2.hero-text {
     position: absolute;
